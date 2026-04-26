@@ -1,6 +1,5 @@
-name: Deploy
-
 on:
+  workflow_dispatch:    # Allows manual trigger via the "Actions" tab
   repository_dispatch:
     types: [build]
   schedule:
